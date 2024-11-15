@@ -6,7 +6,7 @@ accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
 theme_color:           rgb(25,55,71)
 
-google_fonts:          false
+google_fonts:          true
 
 hydejack:
   post_addons:         [about, newsletter, related, random, comments]
@@ -34,14 +34,14 @@ hydejack:
   hide_last_modified:  false
 
   dark_mode:
-    always:            false
+    always:            true
     dynamic:           true
     sunrise:           6
     sunset:            18
     icon:              true
 
   offline:
-    enabled:           false
+    enabled:           true
     cache_version:     1
     precache_assets:
       - /assets/img/swipe.svg
